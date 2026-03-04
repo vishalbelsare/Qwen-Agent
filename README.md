@@ -22,10 +22,10 @@ limitations under the License.
 <br>
 
 <p align="center">
-          💜 <a href="https://chat.qwen.ai/"><b>Qwen Chat</b></a>&nbsp&nbsp | &nbsp&nbsp🤗 <a href="https://huggingface.co/Qwen">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/organization/qwen">ModelScope</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://qwenlm.github.io/">Blog</a> &nbsp&nbsp ｜ &nbsp&nbsp📖 <a href="https://qwen.readthedocs.io/">Documentation</a>
+          💜 <a href="https://chat.qwen.ai/"><b>Qwen Chat</b></a>&nbsp&nbsp | &nbsp&nbsp🤗 <a href="https://huggingface.co/Qwen">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/organization/qwen">ModelScope</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://qwenlm.github.io/">Blog</a> &nbsp&nbsp ｜ &nbsp&nbsp📖 <a href="https://qwenlm.github.io/Qwen-Agent/en/">Documentation</a>
 
 <br>
-💬 <a href="https://github.com/QwenLM/Qwen/blob/main/assets/wechat.png">WeChat (微信)</a>&nbsp&nbsp | &nbsp&nbsp🫨 <a href="https://discord.gg/CV4E9rpNSD">Discord</a>&nbsp&nbsp
+📊 <a href="https://qwenlm.github.io/Qwen-Agent/en/benchmarks/deepplanning/">Benchmark</a>&nbsp&nbsp | &nbsp&nbsp💬 <a href="https://github.com/QwenLM/Qwen/blob/main/assets/wechat.png">WeChat (微信)</a>&nbsp&nbsp | &nbsp&nbsp🫨 <a href="https://discord.gg/CV4E9rpNSD">Discord</a>&nbsp&nbsp
 </p>
 
 
@@ -35,7 +35,9 @@ It also comes with example applications such as Browser Assistant, Code Interpre
 Now Qwen-Agent plays as the backend of [Qwen Chat](https://chat.qwen.ai/).
 
 # News
-* 🔥🔥🔥 Sep 23, 2025: Added [Qwen3-VL Tool-call Demo](./examples/cookbook_think_with_images.ipynb), supporting tools such as zoom in, image search, and web search.
+* 🔥🔥🔥Feb 16, 2026: Open-sourced Qwen3.5. For usage examples, refer to [Qwen3.5 Agent Demo](./examples/assistant_qwen3.5.py).
+* Jan 27, 2026: Open-sourced agent evaluation benchmark [DeepPlanning](https://qwenlm.github.io/Qwen-Agent/en/benchmarks/deepplanning/) and added Qwen-Agent [documentation](https://qwenlm.github.io/Qwen-Agent/en/guide/).
+* Sep 23, 2025: Added [Qwen3-VL Tool-call Demo](./examples/cookbook_think_with_images.ipynb), supporting tools such as zoom in, image search, and web search.
 * Jul 23, 2025: Add [Qwen3-Coder Tool-call Demo](./examples/assistant_qwen3_coder.py); Added native API tool call interface support, such as using vLLM's built-in tool call parsing.
 * May 1, 2025: Add [Qwen3 Tool-call Demo](./examples/assistant_qwen3.py), and add [MCP Cookbooks](./examples/).
 * Mar 18, 2025: Support for the `reasoning_content` field; adjust the default [Function Call template](./qwen_agent/llm/fncall_prompts/nous_fncall_prompt.py), which is applicable to the Qwen2.5 series general models and QwQ-32B. If you need to use the old version of the template, please refer to the [example](./examples/function_calling.py) for passing parameters.
